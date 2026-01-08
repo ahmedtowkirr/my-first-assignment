@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+header{
+    background-color: white;
+    padding-left: 120px;
+}
+
+nav{
+    width: 100%;
+    max-width: 1600px;
+    height: 92px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    padding: 16px 120px 16px 120px;
+    list-style-type: none;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .menu a{
+    font-size: 16px;
+    font-style: medium;
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: darkcyan;
+    border: none;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
