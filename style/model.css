@@ -13,7 +13,12 @@
 
 header{
     background-color: white;
+   background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+   background-position:bottom  ;
+   background-repeat: no-repeat;
+   
     padding-left: 120px;
+
 }
 
 nav{
@@ -52,4 +57,7 @@ nav .menu a{
     font-weight: bold;
     color: white;
     align-items: center;
+}
+.section{
+    text-align: center;
 }
